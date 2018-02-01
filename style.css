@@ -1,0 +1,90 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{    
+    height:100px;
+    background-color:rgb(185, 135, 250);
+    color:#fff;
+}
+
+header h3{
+    margin:0px;
+    text-align: center;
+}
+
+
+nav ul{    
+    list-style-type: none;
+    width:auto;   
+    position:relative;
+    top:16px;
+    
+}
+
+nav li{
+    display:inline-block;
+    background-color:rgb(121, 28, 241);    
+    padding:10px 15px;
+   
+}
+
+nav li:hover{    
+    background-color:rgb(10, 143, 125);    
+}
+
+nav a {
+    text-decoration: none;
+    color:#fff;
+    
+}
+
+aside{
+    width:29%;
+    background-color:rgb(183, 235, 248);
+    color:rgb(36, 3, 3);
+    float:left;
+}
+
+section.content{
+    padding-left:5px;
+    width:70%;
+    background-color:rgba(219, 245, 221, 0.356);
+    color:rgb(36, 3, 3);
+    float:left;
+}
+
+footer{     
+    clear:all;
+    position:fixed;
+    bottom:0px;
+    height:20px; 
+    width:100%;
+    background-color: #ccc;
+    text-align: center;
+}
+
+table{
+    width:100%;
+}
+
+table th{
+    background-color: #ccc;
+}
+
+table tr:nth-child(1) td{
+    background-color:rgb(96, 142, 180);
+    color:#fff;
+}
+
+table tr:nth-child(2) td{
+    background-color:rgb(68, 60, 2);
+    color:#fff;
+}
+
+hr{
+    background-color: rgb(168, 118, 8);
+    height:2px;
+}
